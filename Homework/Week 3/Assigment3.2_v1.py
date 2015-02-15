@@ -1,7 +1,5 @@
 # Rewrite your pay program using try and except so that your program handles non-numeric input gracefully.
 
-# THIS IS A TEST	
-
 '''
 Example:
 - - - - 
@@ -11,14 +9,14 @@ Error, please enter numeric input
 '''
 
 hours = 0
-while True:
+while hours ==  0:
 	try:
 		hours = float(raw_input('Enter hours: '))
 	except:
 		print 'Error, please enter numeric input'
 
 rate = 0
-while True:
+while rate == 0:
 	try:
 		rate = float(raw_input('Enter rate: '))
 	except:

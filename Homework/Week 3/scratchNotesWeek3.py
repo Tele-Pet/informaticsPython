@@ -53,6 +53,7 @@ except:
 print 'Second', istr
 '''
 
+'''
 rawstr = raw_input('Enter a number: ')
 try:
 	ival = int(rawstr)
@@ -63,3 +64,14 @@ if ival >0:
 	print 'Nice work'
 else:
 	print 'Not a number'
+'''
+
+'''
+astr = 'Hello Bob'
+istr = 0
+try:
+    istr = int(astr)
+except:
+    istr = -1
+print istr
+'''
