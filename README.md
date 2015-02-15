@@ -1,5 +1,6 @@
 # informaticsPython
-What are some common mistakes when using git?
+<i>What are some common mistakes when using git?</i>
+
 <ol>
  	<li>Tracking reproducible non-text files.</li>
  	<li>Committing to wrong branch.</li>
