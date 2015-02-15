@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+import random
+for i in range(10):
+	x = random.random() 
+	print x
+
+# Output One:
+# 0.363868960772
+# 0.678263419889
+# 0.00128790454214
+# 0.454558333989
+# 0.731216736667
+# 0.337879266654
+# 0.00311569868105
+# 0.964629994146
+# 0.00600773728414
+# 0.11810903108
+# [Finished in 0.1s]
+
+# Output Two:
+# 0.595086814889
+# 0.244663375854
+# 0.655984718007
+# 0.891956505428
+# 0.239097724096
+# 0.935181301904
+# 0.658692075868
+# 0.637498454837
+# 0.535750399651
+# 0.080701513703
+# [Finished in 0.1s]
+'''
+
+
+'''
+# The random function is only one of many functions which handle random num- bers. The function randint takes parameters low and high and returns an integer between low and high (including both).
+
+import random
+x = random.randint(5, 10)
+print x
+'''
+
+
+'''
+# To choose an element from a sequence at random, you can use choice:
+import random
+t = [1, 2, 3]
+print random.choice(t)
+'''
+
+'''
+import math
+print math
+# Output is: <module 'math' from '/Applications/anaconda/lib/python2.7/lib-dynload/math.so'>
+'''
+
+'''
+# The module object contains the functions and variables defined in the module. To access one of the functions, you have to specify the name of the module and the name of the function, separated by a dot (also known as a period). This format is called dot notation.
+
+# To convert from degrees to radians, divide by 360 and multiply by 2π:
+import math
+
+degrees = 45
+radians = degrees / 360.0 * 2 * math.pi
+print math.sin(radians)
+# Output: 0.707106781187
+'''
+
+'''
+import math
+print math.sqrt(2) / 2.0
+# Output: 0.707106781187
+'''
+
+
+# Void functions might display something on the screen or have some other effect, but they don’t have a return value. If you try to assign the result to a variable, you get a special value called None.
+
+# To return a result from a function, we use the return statement in our function. For example, we could make a very simple function called addtwo that adds two numbers together and return a result.
+
+def addtwo(a, b): 
+	added=a+b
+	return added
+
+x = addtwo(3, 5) 
+print x # Output: 8
+
+
+
+
