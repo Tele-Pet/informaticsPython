@@ -10,7 +10,6 @@
 # If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
 
 
-
 score = 0.0
 while True:
 	try:
@@ -23,12 +22,12 @@ while True:
 		else:
 			print 'That\'s out of range.  Try again.'
 if score >= 0.9:
-	print 'Grade: A'
+	print 'A'
 elif score >= 0.8:
-	print 'Grade: B'
+	print 'B'
 elif score >= 0.7:
-	print 'Grade: C'
+	print 'C'
 elif score >= 0.6:
-	print 'Grade: D'
+	print 'D'
 elif score < 0.6:
-	print 'Grade: F'
+	print 'F'
