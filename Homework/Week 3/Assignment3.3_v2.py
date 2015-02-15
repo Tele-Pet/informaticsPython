@@ -20,7 +20,6 @@ def getGrade(x):
 	elif x < 0.6:
 		print 'F'
 
-
 score = 0.0
 while True:
 	try:
@@ -32,6 +31,6 @@ while True:
 			break
 		else:
 			print 'That\'s out of range.  Try again.'
-			
+
 getGrade(score)
 
