@@ -9,12 +9,6 @@
 # Enter a number: done
 # 16 3 5.33333333333
 
-# usrList = [10, 20, 30]
-# print usrList
-# x = 40
-# usrList.append(x)
-# print usrList
-
 import numpy as np
 
 usrInput = None

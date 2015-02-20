@@ -20,12 +20,9 @@ while usrInput != 'done':
 		usrSum += usrInput
 		usrCount += 1
 		usrAvg = usrSum / usrCount
-		# print 'usrCount is: ', usrCount
-		# print 'usrSum is: ', usrSum
-		# print 'usrAvg is: ', usrAvg
 	except:
 		if usrInput == 'done':
-			print 'User avereage is: ', usrAvg
+			print 'User average is: ', usrAvg
 		else:
 			print 'Invalid input'
 
