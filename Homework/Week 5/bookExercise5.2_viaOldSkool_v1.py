@@ -27,3 +27,5 @@ while usrInput != 'done':
 			print 'User min is: ', usrMin
 		else:
 			print 'Invalid input'
+
+# This will not work when only one number is inputted
