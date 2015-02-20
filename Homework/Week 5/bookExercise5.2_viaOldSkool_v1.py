@@ -29,3 +29,9 @@ while usrInput != 'done':
 			print 'Invalid input'
 
 # This will not work when only one number is inputted
+
+# Possibly useful tidbit from chapter readind?
+# while True:
+# line = raw_input('> ') if line == 'done':
+# break print line
+# print 'Done!'
