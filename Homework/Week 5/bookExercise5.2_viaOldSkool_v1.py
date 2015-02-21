@@ -30,7 +30,7 @@ while usrInput != 'done':
 
 # This will not work when only one number is inputted
 
-# Possibly useful tidbit from chapter readind?
+# Possibly useful tidbit from chapter reading?
 # while True:
 # line = raw_input('> ') if line == 'done':
 # break print line
