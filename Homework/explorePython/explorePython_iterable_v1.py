@@ -1,7 +1,7 @@
 # Watching this video called Loop Like A Native:
 # https://www.youtube.com/watch?v=EnSu9hHGq5o#t=148
 
-theAddress = ("/Users/josiah_MBP/Dropbox/Documents/School/Coursera/PythonGIT/Homework/explorePython/gettysburgAdress.txt")
+theAddress = ("/Users/josiah_MBP/Dropbox/Documents/School/Coursera/PythonGIT/Homework/explorePython/gettysburgAddress.txt")
 
 with open(theAddress) as f:
 	for line in f: # see below notes on what repr() is
