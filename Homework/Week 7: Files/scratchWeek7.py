@@ -107,11 +107,24 @@
 
 ###############################################################################
 
-fout = open('output.txt', 'w')
-line1 = 'This here\'s the wattle,\n'
-line2 = 'Here\'s my line 2, y\'all!\n'
-line3 = '...and my line 3\n'
-fout.write(line1)
-fout.write(line2)
-fout.write(line3)
-fout.close()
+# fout = open('output.txt', 'w')
+# line1 = 'This here\'s the wattle,\n'
+# line2 = 'Here\'s my line 2, y\'all!\n'
+# line3 = '...and my line 3\n'
+# fout.write(line1)
+# fout.write(line2)
+# fout.write(line3)
+# fout.close()
+
+###############################################################################
+
+# >>> s = '1 2\t 3\n 4'
+# >>> print s
+# 1 2	 3
+#  4
+# >>> print repr(s)
+# '1 2\t 3\n 4'
+
+###############################################################################
+
+
