@@ -8,6 +8,11 @@
 
 # Enter the file name: mbox.txt Average spam confidence: 0.894128046745 Enter the
 # file name: mbox-short.txt Average spam confidence: 0.750718518519
+
+import os
+# change working direcotry to where .txt files are
+os.chdir('/Users/josiah_MBP/Dropbox/Documents/School/Coursera/PythonGIT/Homework/Week 7: Files')
+
 count = 0
 spamList = []
 
@@ -19,3 +24,4 @@ for line in openFile:
 		spam = float(line[21:])
 		spamList.append(spam)
 print 'Average spam confidence: ', (sum(spamList)) / count
+
