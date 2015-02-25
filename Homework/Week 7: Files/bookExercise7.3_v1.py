@@ -4,7 +4,10 @@
 # Enter the file name: mbox.txt
 # There were 1797 subject lines in mbox.txt
 # python egg.py
-# Enter the file name: missing.tyxt File cannot be opened: missing.tyxt
+# Enter the file name: missing.tyxt 
+# File cannot be opened: missing.tyxt
 # python egg.py
 # Enter the file name: na na boo boo
 # NA NA BOO BOO TO YOU - You have been punk'd!
+
+
